@@ -1,0 +1,49 @@
+home，about，gallery，faculty，evnets，contact
+
+yourname，your Phone，your email，Enter personal informaion，send message
+
+about
+
+Lorem Ipsum is simply dummy text of the printing and typesetting
+industry.Lorem Ipsum has been the industry's standard dummy
+text ever since the 1500s.
+
+a word about us
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa aliquid quis, soluta similique nostrum optio consectetur repellat sint explicabo ad veniam error, unde quod amet provident sequi. Magnam, dolores!
+
+Library
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrabled it make a type specimen book.
+
+Computer Lab
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrabled it make a type specimen book.
+
+Conference Hall
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrabled it make a type specimen book.
+
+Play Ground
+Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrabled it make a type specimen book.
+
+GALLERY
+
+Lorem Ipsum is simply dummy text of the printing and typesetting
+industry.Lorem Ipsum has been the industry's standard dummy
+text ever since the 1500s.
+
+SCIENCE LAB，INDOOR STADIUM，TRANSPORTATION，KIDS ROOM，MEDITATION CLASSES，KIDS PLAY GROUND
+
+
+Copyright © FuJian University of Technology 闽ICP备10022194号-1 福建省福州市大学新区学府南路33号 350118
+
+
+
+
+

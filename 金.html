@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <meta name="description"
+		    content="Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.">
+		  <meta name="keywords" content="HOME,ABOUT,GALLERY,FACULTY,EVNETS,CONCACT">
+		  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+		<title>Career Builder</title>
+		<link rel="stylesheet" href="./css/base.css">
+		<style>
+		 header{
+		   height: 80px;
+		   background-color: #07cbc9;
+		   line-height: 80px;
+		 }
+		 header .shang{
+		   padding-left: 150px;
+		   padding-right: 100px;
+		 }
+		 header .shang a{
+		   color: #fff;
+		   font-weight: 700;
+		   margin-right: 16px;
+		 }
+		 header .shang a:nth-last-child(1){
+		   margin-right: 0px;
+		 }
+		 header .shang a:hover{
+		   color: blue;
+		 }
+		 .banner{
+		   height: 600px;
+		   background: pink url(img/banner3.jpg) no-repeat;
+		   background-size: 100% 600px;
+		   text-align: center;
+		   position: relative;
+		 }
+		 
+		 .banner form{
+		   width: 509px;
+		   position: absolute;
+		   left: 50%;
+		   top: 50%;
+		   transform: translate(-50%,-50%);
+		 }
+		 .banner form input,
+		 .banner form textarea,
+		 .banner form button{
+		   display: block;
+		   background: transparent;
+		   outline: none;
+		 }
+		 .banner form input{
+		   width: 509px;
+		   height: 43px;
+		   border: 2px solid #ccc;
+		   margin-bottom: 20px;
+		   color: #fff;
+		   text-indent: 1em;
+		 }
+		 .banner form textarea{
+		   width: 509px;
+		   height: 119px;
+		   border: 2px solid #ccc;
+		   margin-bottom: 20px;
+		   color: #fff;
+		   text-indent: 1em;
+		   line-height: 30px;
+		 }
+		 .banner form button{
+		   height: 43px;
+		   width: 127px;
+		   background: none;
+		   border: 2px solid #ccc;
+		   margin: auto;
+		   color: #ccc;
+		 }
+		 .banner::after{
+		   content: "";
+		   display: block;
+		   width: 100%;
+		   height: 600px;
+		   background-color: rgba(0, 0, 0,.5);
+		 }
+		 .about h2,
+		 .about p{
+		   text-align: center;
+		 }
+		 .about h2{
+		   font-size: 56px;
+		   font-weight: 700;
+		   margin-top: 50px;
+		 }
+		 .about .line{
+		   width: 40px;
+		   height: 2px;
+		   background: #07cbc9;
+		   margin:10px auto 16px;
+		 }
+		 .about p{
+		   font-size: 16px;
+		   color: #797979;
+		 }
+		 .about-item{
+		   width: 1200px;
+		   height: 380px;
+		   margin: 30px auto 0px;
+		   background: url(img/bb3.jpg) no-repeat;
+		   background-position: center;
+		   position: relative;
+		 }
+		 .about-item h3{
+		   width: 190px;
+		   font-size: 36px;
+		   text-align: center;
+		   position: absolute;
+		   left: 50px;
+		 }
+		 .about-item-info{
+		   width: 370px;
+		   height: 246px;
+		   border: 1px solid #ccc;
+		   padding: 20px 30px 30px 20px;
+		   position: absolute;
+		   left: 50px;
+		   top: 98px;
+		   background-color: rgba(255, 255, 255,.5);
+		 }
+		 .about-item-info p{
+		   text-align: left;
+		   color: #000;
+		   margin-bottom: 16px;
+		 }
+		 .about-item-info button{
+		   width: 102px;
+		   height: 45px;
+		   background-color: #000;
+		   color: #fff;
+		   border: none;
+		 }
+		 div[class^="about-item-x"]{
+		   width: 238px;
+		   height: 144px;
+		   border: 1px  solid #07cbc9;
+		   position: absolute;
+		   right: 10px;
+		   text-align: center;
+		 }
+		 div[class^="about-item-x"] h4{
+		   font-size: 32px;
+		   font-weight: 700;
+		   margin-top: 15px;
+		 }
+		 div[class^="about-item-x"] span{
+		   font-size: 24px;
+		 }
+		 .about-item-xxfaculty{
+		   top: 174px;
+		 }
+		 .kuai{
+		   width: 100%;
+		   height: 780px;
+		   background-color: #07cbc9;
+		   margin: 100px 0px 50px;
+		 }
+		 .kuai div{
+		   width: 25%;
+		   height: 390px;
+		   float: left;
+		   padding: 35px 45px 60px;
+		   color: #fff;
+		   position: relative;
+		 }
+		 .kuai div:nth-child(1){
+		   background: url(img/b1.jpg) no-repeat;
+		   background-size: 100% 396px;
+		 }
+		 .kuai div:nth-child(3){
+		   background: url(img/b2.jpg) no-repeat;
+		   background-size: 100% 396px;
+		 }
+		 .kuai div:nth-child(6){
+		   background: url(img/b3.jpg) no-repeat;
+		   background-size: 100% 396px;
+		 }
+		 .kuai div:nth-child(8){
+		   background: url(img/b4.jpg) no-repeat;
+		   background-size: 100% 396px;
+		 }
+		 .kuai div h6{
+		   font-size: 32px;
+		   font-weight: 700;
+		 
+		 }
+		 .kuai div p:nth-child(2){
+		   font-size: 18px;
+		   margin: 20px 0px;
+		 }
+		 .kuai div p:nth-child(3){
+		   font-size: 12px;
+		 }
+		 .kuai div button{
+		   width: 102px;
+		   height: 42px;
+		   background-color: #000;
+		   color: #fff;
+		   position: absolute;
+		   bottom: 60px;
+		   left: 50%;
+		   margin-left: -51px;
+		   border: none;
+		 }
+		 .kuai div:nth-child(2)::after,
+		 .kuai div:nth-child(4)::after{
+		   position: absolute;
+		   top: 50%;
+		   left: -56px;
+		   content: "";
+		   width: 0;
+		   height: 0;
+		   border: 28px solid transparent;
+		   border-right-color: #07cbc9;
+		   border-right-width: 36px;
+		 }
+		 .kuai div:nth-child(6)::after,
+		 .kuai div:nth-child(8)::after{
+		   position: absolute;
+		   top: 50%;
+		   left: 0px;
+		   content: "";
+		   width: 0;
+		   height: 0;
+		   border: 28px solid transparent;
+		   border-left-color: #07cbc9;
+		   border-left-width: 36px;
+		 }
+		 .gallery ul{
+		   width: 1140px;
+		   margin: auto;
+		   margin-top: 45px;
+		   margin-bottom: 60px;
+		 }
+		 .gallery ul li{
+		   width: 360px;
+		   height: 304px;
+		   float: left;
+		   margin-right: 30px;
+		   margin-bottom: 30px;
+		 }
+		 .gallery ul li:nth-child(3n+3){
+		   margin-right: 0px;
+		 }
+		 .gallery ul li:nth-child(n+4){
+		   margin-bottom: 0px;
+		 }
+		 .gallery ul li div{
+		   height: 64px;
+		   line-height: 64px;
+		   background-color: #000;
+		   color: #fff;
+		   padding-left: 20px;
+		 }
+		 footer{
+		   height: 80px;
+		   line-height: 80px;
+		   text-align: center;
+		   background-color: #07cbc9;
+		   color: #fff;
+		 }
+		  
+		</style>
+	</head>
+	<body>
+		 <header>
+		    <div class="shang clearfix">
+		      <h1 class="fl"><img src="img/logo.png" alt=""></h1>
+		      <nav class="fr">
+		        <a href="#">EVNETS</a>
+		        <a href="#">CONCACT</a>
+		        <a href="#">HOME</a>
+		        <a href="#">ABOUT</a>
+		        <a href="#">GALLERY</a>
+		        <a href="#">FACULTY</a>
+		      </nav>
+		    </div>
+		  </header>
+		  
+		  <section class="banner">
+		    <form action="">
+		      <input type="text" placeholder="your  name">
+		      <input type="text" placeholder="your Phone">
+		      <input type="text" placeholder="your email">
+		      <textarea name="" id="" cols="30" rows="10" placeholder="Enter personal informaion"></textarea>
+		      <button class="c2">send message</button>
+		    </form>
+		  </section>
+		  <section class="about">
+		    <h2>ABOUT</h2>
+		    <div class="line"></div>
+		    <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry.Lorem Ipsum has been the industry's
+		      standard dummy <br>text ever since the 1500s.</p>
+		    <div class="about-item">
+		      <h3>A WORD ABOUT US</h3>
+		      <div class="about-item-info">
+		        <p>Praesent dignissim viverra est, sed bibendum ligula congue non. Sed ac nislet felis gravida commodo?
+		          Suspendisseeget ullamcorper ipsum. Syspendissediam amet.</p>
+		        <button>EXPLORE</button>
+		      </div>
+		      <div class="about-item-xxstudents">
+		        <h4>70000</h4>
+		        <div class="line"></div>
+		        <span>Students</span>
+		      </div>
+		      <div class="about-item-xxfaculty">
+		        <h4>600</h4>
+		        <div class="line"></div>
+		        <span>Faculty</span>
+		      </div>
+		    </div>
+		  </section>
+		  <section class="kuai">
+		    <div></div>
+		    <div>
+		      <h6>Library</h6>
+		      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+		        galley of type and scrabled it make a type specimen book.</p>
+		      <button>EXPLORE</button>
+		    </div>
+		    <div></div>
+		    <div>
+		      <h6>Computer Lab</h6>
+		      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrabled it make a type specimen book.</p>
+		      <button>EXPLORE</button>
+		    </div>
+		    <div>
+		      <h6>Conference Hall</h6>
+		      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry
+		      </p>
+		      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrabled it make a type specimen book.</p>
+		      <button>EXPLORE</button>
+		    </div>
+		    <div></div>
+		    <div>
+		      <h6>Play Ground</h6>
+		      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrabled it make a type specimen book.</p>
+		      <button>EXPLORE</button>
+		    </div><div>
+		    </div>
+		  </section>
+		  <section class="gallery about">
+		    <h2>GALLERY</h2>
+		    <div class="line"></div>
+		    <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry.Lorem Ipsum has been the industry's
+		      standard dummy <br>text ever since the 1500s.</p>
+		    <ul class="clearfix">
+		      <li>
+		        <img src="img/03-01.jpg" alt=""><br>
+		        <div>SCIENCE LAB</div>
+		      </li>
+		      <li>
+		        <img src="img/03-02.jpg" alt=""><br>
+		        <div>INDOOR STADIUM</div>
+		      </li>
+		      <li>
+		        <img src="img/03-03.jpg" alt=""><br>
+		        <div>TRANSPORTATION</div>
+		      </li>
+		      <li>
+		        <img src="img/03-04.jpg" alt=""><br>
+		        <div>KIDS ROOM</div>
+		      </li>
+		      <li>
+		        <img src="img/03-05.jpg" alt=""><br>
+		        <div>MEDITATION CLASSES</div>
+		      </li>
+		      <li>
+		        <img src="img/03-06.jpg" alt=""><br>
+		        <div>KIDS PLAY GROUND</div>
+		      </li>
+		    </ul>
+		  </section>
+		  <footer>Copyright © FuJian University of Technology 闽ICP备10022194号-1 福建省福州市大学新区学府南路33号 350118</footer>
+	</body>
+</html>
